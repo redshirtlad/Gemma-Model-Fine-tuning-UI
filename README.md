@@ -2,10 +2,7 @@
 
 A modular interface for fine-tuning Google DeepMind’s Gemma language models. Supports real-time monitoring, multi-source data pipelines, and both standard and LoRA fine-tuning.
 
-This is the repo for Google Summer of Code 2025.  
-Contributor Name: Chen-Hao (Howard) Wu (howdywu@gmail.com)  
-Organization: Google DeepMind  
-Mentors: Paige Bailey  
+
 Project Name: Gemma Fine-Tuning UI  
 
 ---
@@ -16,7 +13,7 @@ Project Name: Gemma Fine-Tuning UI
 - Build an intuitive, no-code web UI to fine-tune Google DeepMind’s Gemma models.
 - Allow dataset upload/selection, hyperparameter configuration, training orchestration, real-time monitoring, and model export without writing code.
 - Lower the barrier for educators, researchers, and prototypers to adapt Gemma to their tasks.  
-  (See `GSoC Proposal.md` for full context.)
+
 
 ### What I built
 - Frontend: Streamlit app with modular views (`welcome`, `create`, `dashboard`, `inference`) and reusable components.
@@ -204,8 +201,6 @@ sequenceDiagram
     UI-->>User: Display results, progress
 ```
 
-## License
 
-Apache 2.0. See [LICENSE](LICENSE).
 
 ---
